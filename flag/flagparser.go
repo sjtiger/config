@@ -6,7 +6,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/sjtiger/config/config/parser"
+	"github.com/sjtiger/config/parser"
 )
 
 // Parse parses the command-line flag arguments into a map,

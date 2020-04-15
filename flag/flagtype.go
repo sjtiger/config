@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/sjtiger/config/config/parser"
+	"github.com/sjtiger/config/parser"
 )
 
 func getFlagTypes(element interface{}) map[string]reflect.Kind {
