@@ -6,7 +6,7 @@ import (
 
 	"github.com/sjtiger/config"
 	"github.com/sjtiger/config/flag"
-	"github.com/sjtiger/log"
+	"github.com/sjtiger/config/log"
 )
 
 // FlagLoader loads configuration from flags.

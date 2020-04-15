@@ -5,11 +5,11 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/sjtiger/config/config/parser"
+	"github.com/sjtiger/config/parser"
 )
 
 // DefaultPrefix prefix of environment variable
-const DefaultPrefix = "TF_"
+const DefaultPrefix = ""
 
 // Decode config
 func Decode(environ []string, prefix string, element interface{}) error {

@@ -7,7 +7,7 @@ import (
 
 	"github.com/sjtiger/config"
 	"github.com/sjtiger/config/env"
-	"github.com/sjtiger/log"
+	"github.com/sjtiger/config/log"
 )
 
 // EnvLoader loads configurations from environment variables
